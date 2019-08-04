@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e497f83f6dc742bc882ecb318b0dd737" Name="Diagram1">
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.CUSTOMER" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.EMPLOYEE" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.ORDER" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.ORDER_LINE" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.PRODUCT" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.PRODUCT_LINE" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.RAW_MATERIAL" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.SALESPERSON" Width="1.5" PointX="5.25" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.SKILL" Width="1.5" PointX="5.25" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.SUPPLIES" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.TERRITORY" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.USES" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.VENDOR" Width="1.5" PointX="3" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="S1G5_PVFDBModel.WORK_CENTER" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="S1G5_PVFDBModel.FK_ORDER_CUSTOMER" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.FK_EMPLOYEE_EMPLOYEE" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.FK_ORDER_LINE_ORDER" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.FK_ORDER_LINE_PRODUCT" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.FK_PRODUCT_PRODUCT_LINE" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.FK_USES_PRODUCT" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.FK_SUPPLIES_RAW_MATERIAL" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.FK_USES_RAW_MATERIAL" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.FK_SALESPERSON_TERRITORY" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.FK_SUPPLIES_VENDOR" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.DOES_BUSINESS_IN" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.HAS_SKILL" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.PRODUCT_IN" ManuallyRouted="false" />
+        <AssociationConnector Association="S1G5_PVFDBModel.WORK_IN" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
